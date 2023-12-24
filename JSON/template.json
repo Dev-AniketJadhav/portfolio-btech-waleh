@@ -1,0 +1,30 @@
+{
+    "COMMENT":"This file includes information that will be present on every page",
+    "navLinks":[
+        {"href":"/", "name":"Home"},
+        {"href":"/blog", "name":"Blog"},
+        {"href":"/projects", "name":"Projects"},
+        {"href":"/contact", "name":"Contact"},
+        {"href":"/asdf", "name":"404 Error"}
+    ],
+    "head":{
+        "link":{
+            "rel":"stylesheet",
+            "type":"text/css",
+            "href":"/index.css"
+        },
+        "meta":{
+            "charset":"utf-8"
+        },
+        "script":{
+            "src":"/scripts.js",
+            "type":"text/javascript"
+        }
+    },
+    "footer":{
+        "content":[
+            "Copyright © 2023 by Aniket Jadhav.",
+            "Aniket's Web Portfolio is powered by Node, Express, and Pug (HTML5)"
+        ]
+    }
+}
